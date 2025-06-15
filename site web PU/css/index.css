@@ -1,25 +1,30 @@
 #hero {
+    position: relative;
+    height: 44rem;
 
-   
-        position: relative;
+    img {
+        filter: brightness(60%);
+        width: 100%;
+    }
 
-        img {
-            filter: brightness(60%);
-            width: 100%;
-        }
+    h1 {
+        position: absolute;
+        top: 250px;
+        margin: 3rem;
+    }
 
-        h1 {
-            position: absolute;
-            top: 250px;
-            margin: 3rem;
-        }
+    h2 {
+        position: absolute;
+        top: 380px;
+        margin: 3rem;
+        /*Jsp pk les lettres sont comme ca lol*/
+    }
 
-        h2 {
-            position: absolute;
-            top: 380px;
-            margin: 3rem;
-            /*Jsp pk les lettres sont comme ca lol*/
-        }
 
-    
+}
+
+.container{
+    h2{
+        position:absolute;
+    }
 }
