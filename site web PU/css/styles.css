@@ -188,12 +188,23 @@ body {
     }
 
     h2 {
-      font-size: 6vw;
+      font-size: 5vw;
       color: #041A28;
     }
 
+    h3{
+      font-size: 4vw;
+    }
+
     .container {
-      margin: 2rem 4rem;
+      margin: 2rem 3rem;
+    }
+
+    .green-container{
+      margin:0;
+      padding: 2rem 3rem;
+      background-color: #4A6349;
+      p,h1,h2,h3{color: white !important;}
     }
 
   }

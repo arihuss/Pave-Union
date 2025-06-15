@@ -1,6 +1,8 @@
 .hero {
     position: relative;
-     max-height: 40rem;
+    max-height: 44rem;
+    overflow: hidden;
+    
 
     img {
         filter: brightness(60%);
@@ -9,21 +11,21 @@
 
     h1 {
         position: absolute;
-        top: 15vw;
+        top: 35%;
         margin: 3rem;
     }
 
     h2 {
         position: absolute;
-        top: 25vw;
+        font-size: 6vw!important;
+        top: 55%;
         margin: 3rem;
     }
 
-
 }
 
-.container{
-    h2{
-        position:absolute;
+    .container{
+        h2{
+            margin: 15px 0;
+        }
     }
-}
