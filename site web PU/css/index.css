@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 44rem;
+     max-height: 40rem;
 
     img {
         filter: brightness(60%);

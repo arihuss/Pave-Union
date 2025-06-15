@@ -1,6 +1,7 @@
 .hero {
     position: relative;
-    height: 40rem;
+    max-height: 40rem;
+
 
     img {
         filter: brightness(60%);
@@ -9,8 +10,8 @@
 
     h1 {
         position: absolute;
-        top: 250px;
-        left:340px;
-        margin: 3rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
