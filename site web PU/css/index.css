@@ -1,4 +1,4 @@
-#hero {
+.hero {
     position: relative;
     height: 44rem;
 
@@ -17,7 +17,6 @@
         position: absolute;
         top: 380px;
         margin: 3rem;
-        /*Jsp pk les lettres sont comme ca lol*/
     }
 
 

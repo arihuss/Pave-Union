@@ -1,0 +1,16 @@
+.hero {
+    position: relative;
+    height: 40rem;
+
+    img {
+        filter: brightness(60%);
+        width: 100%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 250px;
+        left:330px;
+        margin: 3rem;
+    }
+}
