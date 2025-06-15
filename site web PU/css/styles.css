@@ -196,6 +196,10 @@ body {
       font-size: 4vw;
     }
 
+    p{
+      font-family: "Rethink Sans";
+    }
+
     .container {
       margin: 2rem 3rem;
     }
