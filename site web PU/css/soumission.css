@@ -15,3 +15,69 @@
         transform: translate(-50%, -50%);
     }
 }
+
+.green-container {
+  background-color: #fcfffc;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: 'Rethink Sans', sans-serif;
+}
+
+.soumission-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.soumission-intro {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.soumission-intro h2 {
+  font-family: 'Red Rose', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #F3F3F3;
+}
+
+.soumission-intro h2 span {
+  display: block;
+  color: #D7D7D7;
+}
+
+.soumission-intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 1000px;
+}
+
+.soumission-infos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+}
+
+.info-box {
+  max-width: 220px;
+}
+
+.info-box img {
+  width: 75px;
+  margin-bottom: 1rem;
+}
+
+.info-box h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.info-box p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
