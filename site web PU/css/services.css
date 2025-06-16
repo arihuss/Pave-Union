@@ -31,6 +31,7 @@
   overflow: hidden;
   width: 90%; 
   margin: 0 auto; 
+  min-height: 400px;
 }
 
 .service-image {
@@ -45,9 +46,12 @@
 }
 
 .service-info {
+  display: flex;
+  flex-direction: column;
   flex: 1.2;
   background-color: #041A28;
   color: white;
+  justify-content: flex-start; 
   padding: 1rem 2rem 2rem 2rem;
   font-family: "Rethink Sans";
 }
