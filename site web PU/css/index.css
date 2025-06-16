@@ -28,4 +28,163 @@
         h2{
             margin: 15px 0;
         }
-    }
+
+        .services-section {
+        background-color: white;
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .services-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 8rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        }
+
+        .service-item {
+        text-align: center;
+        max-width: 170px;
+        font-family: 'Red Rose';
+        }
+
+        .service-item img {
+        width: 170px;
+        height: 180px;
+        background-color: lightgray;
+        object-fit: cover;
+        }
+
+        .service-item p {
+        margin-top: 0.5rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        }
+
+}
+
+
+/** boutons jaune**/
+
+   .cta-button a {
+    background-color: #DBB53A;
+    color: #041A28;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: 'Red Rose';
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+ .cta-button a:hover {
+     background-color: #c79e28;
+}       
+
+/**section soumission **/
+.soumission-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.soumission-header h2 {
+  font-size: 3vw;
+  font-family: 'Red Rose';
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.soumission-btn {
+  background-color: #DBB53A;
+  color: #041A28;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-family: 'Red Rose';
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.soumission-btn:hover {
+  background-color: #c79e28;
+}
+
+
+/**image dans index**/
+.full-width-image {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  height: 380px;
+}
+
+
+/**zone**/
+
+.green-container.zone-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 3rem 4rem;
+  flex-wrap: wrap;
+  background-color: #4A6349;
+  color: white;
+}
+
+.zone-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Red Rose';
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.zone-icon img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1rem;
+}
+
+.zone-icon p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  margin: 0;
+  font-family: 'Red Rose';
+}
+
+.zone-text {
+  max-width: 800px;
+  font-family: "Rethink Sans";
+}
+
+.zone-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0;
+  text-align: left;
+}

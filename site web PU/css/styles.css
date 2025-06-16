@@ -38,7 +38,7 @@ body {
         a {
           text-decoration: none;
           color: inherit;
-          font-size: 32px;
+          font-size: 25px;
           font-family: 'Red Rose';
           text-transform: uppercase;
         }
@@ -198,6 +198,7 @@ body {
 
     p{
       font-family: "Rethink Sans";
+      line-height: 1.5;
     }
 
     .container {
@@ -212,4 +213,70 @@ body {
     }
 
   }
+}
+
+
+/**footer**/
+.main-footer {
+  background-color: #041A28;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-family: "Rethink Sans";
+}
+
+.main-footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.main-footer .footer-column {
+  flex: 1;
+  min-width: 180px;
+}
+
+.main-footer .footer-column h4 {
+  color: #C3AD95;
+  font-family: "Red Rose";
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.main-footer .footer-column p {
+  margin: 0.3rem 0;
+}
+
+.main-footer .logo-column {
+  flex: 0 0 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.main-footer .logo-column img {
+  width: 120px;
+}
+
+.main-footer .footer-divider {
+  width: 1px;
+  background-color: #C3AD95;
+  height: 100px;
+  align-self: center;
+}
+
+.main-footer .footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #C3AD95;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.main-footer .footer-bottom img {
+  width: 40px;
 }
