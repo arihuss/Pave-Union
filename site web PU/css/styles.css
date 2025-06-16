@@ -280,3 +280,26 @@ body {
 .main-footer .footer-bottom img {
   width: 40px;
 }
+
+.main-footer .footer-column nav ul {
+  display: flex;            
+  list-style: none;          
+  padding: 0;
+  margin: 0.5rem 0 0 0;      
+  gap: 1rem;                
+}
+
+.main-footer .footer-column nav ul li {
+  display: inline-block;
+}
+
+.main-footer .footer-column nav ul li img {
+  width: 24px;               
+  height: auto;
+}
+
+.main-footer .footer-column nav ul li:nth-child(2) img {
+  position: relative;
+  top: 2px; 
+}
+
