@@ -40,19 +40,19 @@
         .services-list {
         display: flex;
         justify-content: space-between;
-        gap: 8rem;
+        gap: 6rem;
         flex-wrap: wrap;
         margin-bottom: 2rem;
         }
 
         .service-item {
         text-align: center;
-        max-width: 170px;
+        max-width: 185px;
         font-family: 'Red Rose';
         }
 
         .service-item img {
-        width: 170px;
+        width: 185px;
         height: 180px;
         background-color: lightgray;
         object-fit: cover;
@@ -187,4 +187,82 @@
   line-height: 1.8;
   margin: 0;
   text-align: left;
+}
+
+
+/**valeurs**/
+
+.section-valeurs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  padding: 3rem 2rem;
+}
+
+.valeurs-left {
+  flex: 1;
+  min-width: 300px;
+  background-color: #DBB53A;
+  display: flex;
+  padding: 2rem;
+}
+
+.valeurs-left h2 {
+  font-family: 'Red Rose';
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: #0f3348;
+}
+
+.valeurs-left h2 span {
+  color: #041A28;
+}
+
+.valeurs-right {
+  flex: 3;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valeurs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem 3rem;
+}
+
+.valeur {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.valeur img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 3px; /* aligne mieux avec le texte multi-lignes */
+}
+
+.valeur p {
+  font-family: 'Rethink Sans';
+  font-size: 1.1rem;
+  margin: 0;
+  color: #041A28;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.valeur.special p {
+  font-size: 1.2rem;
+}
+
+.valeur .vert {
+  color: #4A6349;
+}
+
+.valeur .orange {
+  color: #DBB53A;
 }
