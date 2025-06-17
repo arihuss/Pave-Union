@@ -1,16 +1,18 @@
 const counters = document.querySelectorAll('.counter');
 counters.forEach(counter => {
-  counter.innerText = '0';
+  let current = 0;
+  const target = +counter.getAttribute('data-target');
+  const increment = target / 100;
+
   const update = () => {
-    const target = +counter.getAttribute('data-target');
-    const current = +counter.innerText;
-    const increment = target / 100;
     if (current < target) {
-      counter.innerText = Math.ceil(current + increment);
+      current += increment;
+      counter.innerText = Math.floor(current);
       setTimeout(update, 30);
     } else {
       counter.innerText = target;
     }
   };
+
   update();
 });
