@@ -16,9 +16,35 @@
 
 <body>
   <header id="header"></header>
+
   <main>
+
     <div class="hero">
-      <img src="images/imageForNow.png" alt="Réalisations">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/pave1.jpg" style="width: 100vw;height: 100vh">
+
+        </div>
+        <div class="mySlides fade">
+
+            <img src="images/exca1.jpg" style="width: 100vw;height: 100vh">
+
+        </div>
+        <div class="mySlides fade">
+
+            <img src="images/exca4.jpg" style="width: 100vw;height: 100vh">
+
+        </div>
+        <div style="text-align:center; margin:-5vh;">
+
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+
+        </div>
+        <a class="prev" onclick="prevSlide()">&#10094;</a>
+        <a class="next" onclick="nextSlide()">&#10095;</a>
+      </div>
       <h1>Pavé Union</h1>
       <h2>Service de pavé et excavation</h2>
     </div>
@@ -166,6 +192,7 @@
     <script src="js/load-header-footer.js"></script>
     <script src="js/stats.js"></script>
       <script src="js/reviews.js"></script>
+      <script src="js/slides-hero.js"></script>
   </footer>
 </body>
 
