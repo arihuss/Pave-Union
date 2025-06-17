@@ -266,3 +266,25 @@
 .valeur .orange {
   color: #DBB53A;
 }
+
+
+/** stats **/
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  background: #4A6349;
+  text-align: center;
+}
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.stats div p {
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Rethink Sans';
+}
+
