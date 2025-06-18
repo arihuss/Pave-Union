@@ -83,55 +83,59 @@
 </section>
 
 
-  <div class="soumission-form">
-  <h2>Soumission</h2>
-  <form action="https://formspree.io/f/xqkrlkjo" method="POST">
-    <div class="input-row">
-      <input type="text" name="prenom" placeholder="Prénom *" required>
-      <input type="text" name="nom" placeholder="Nom *" required>
-    </div>
-    <input type="tel" name="telephone" placeholder="Téléphone *" required>
-    <input type="email" name="email" placeholder="E-mail *" required>
-    <textarea name="commentaire" placeholder="Commentaire *" required></textarea>
-    <input type="file" name="fichier">
-    <button type="submit">Envoyer</button>
-  </form>
-</div>
-
-<section class="faq-section">
-  <h2>Foire aux questions</h2>
-
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>Combien de temps faut-il pour recevoir une soumission ?</span>
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      <p>En général, nous répondons dans les 24 à 48 heures ouvrables.</p>
-    </div>
+ <section class="form-faq-section">
+  <div class="form-container">
+    <h2>Demandez une soumission gratuite</h2>
+    <p class="subtitle">Obtenez une estimation en moins de 48h.</p>
+    
+    <form action="https://formspree.io/f/xqkrlkjo" method="POST">
+      <div class="input-grid">
+        <input type="text" name="prenom" placeholder="Prénom *" required>
+        <input type="text" name="nom" placeholder="Nom *" required>
+        <input type="tel" name="telephone" placeholder="Téléphone *" required>
+        <input type="email" name="email" placeholder="E-mail *" required>
+        <textarea name="commentaire" placeholder="Votre message *" required></textarea>
+        <div class="form-buttons">
+          <label class="file-upload">
+            Ajouter un fichier
+            <input type="file" name="fichier">
+          </label>
+          <button type="submit">Envoyer</button>
+        </div>
+      </div>
+    </form>
   </div>
 
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>Offrez-vous des services en hiver ?</span>
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      <p>Oui, certains services sont offerts selon la saison. Contactez-nous pour en savoir plus.</p>
-    </div>
-  </div>
+  <div class="faq-container">
+    <h3>Foire aux questions</h3>
 
-  <div class="faq-item">
-    <button class="faq-question">
-      <span>Quels types de paiements acceptez-vous ?</span>
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      <p>Nous acceptons les paiements par virement bancaire, chèque ou en argent comptant. Un dépôt peut être requis selon l'envergure du projet.</p>
+    <div class="faq">
+      <details>
+        <summary>Combien de temps pour recevoir une soumission ?</summary>
+        <p>En général, nous répondons dans les 24 à 48 heures ouvrables.</p>
+      </details>
+      <details>
+        <summary>Offrez-vous des services en hiver ?</summary>
+        <p>Oui, selon la saison et le type de service. Contactez-nous pour vérifier.</p>
+      </details>
+      <details>
+        <summary>Quels types de paiements acceptez-vous ?</summary>
+        <p>Virement, chèque ou comptant. Un dépôt peut être requis selon le projet.</p>
+      </details>
+      <details>
+        <summary>Est-ce que la soumission est vraiment gratuite ?</summary>
+        <p>Oui, nos soumissions sont 100 % gratuites et sans engagement.</p>
+      </details>
+      <details>
+        <summary>Fournissez-vous les matériaux ou devons-nous les acheter ?</summary>
+        <p>Nous nous occupons de tout : main-d’œuvre, matériaux, transport et nettoyage.</p>
+      </details>
     </div>
-  </div>
+  </div></section>
 
-</section>
+ <div class="full-width-image">
+    <img src="images/works/exca6.jpg" alt="Image Pavé Union">
+ </div>
 
   <section class="carte-section">
     <h2>Nous localiser</h2>

@@ -84,94 +84,13 @@
 }
 
 
-/** form **/
-.soumission-form {
-  background-color: #041A28;
-  padding: 1.8rem 2rem;
-  max-width: 700px;
-  margin: 4rem auto; 
-  border-radius: 10px;
-  color: white;
-  font-family: 'Rethink Sans', sans-serif;
-}
-
-.soumission-form h2 {
-  text-align: center;
-  color: white;
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin-bottom: 2.4rem;
-  font-family: 'Red Rose';
-}
-
-.soumission-form form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.input-row {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.input-row input {
-  flex: 1;
-  min-width: 45%;
-}
-
-.soumission-form input,
-.soumission-form textarea {
-  padding: 0.8rem 1rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  width: 95.5%;
-  font-family: 'Rethink Sans';
-  background-color: white;
-  color: black;
-  outline: none;
-}
-
-.soumission-form input:focus,
-.soumission-form textarea:focus {
-  outline: 2px solid #C3AD95;
-}
-
-.soumission-form textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-.soumission-form button {
-  background-color: #C3AD95;
-  color: white;
-  border: none;
-  padding: 0.9rem;
-  font-size: 1.4rem;
-  border-radius: 5px;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  width: 40%;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  align-self: center;
-  font-family: "Red Rose"
-}
-
-
-.soumission-form button:hover {
-  background-color: #b49b82;
-}
 
 /** carte **/
 .carte-section {
   background-color: #f9f9f9;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .carte-section h2 {
@@ -190,76 +109,6 @@
   display: block;    
 }
 
-
-/**faq**/
-.faq-section {
-  padding: 2rem 2rem;
-  background-color: #f9f9f9;
-  font-family: 'Rethink Sans', sans-serif;
-  max-width: 1000px;
-  margin: auto;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  border: 2px solid #041A28;
-}
-
-.faq-section h2 {
-  font-family: 'Red Rose', sans-serif;
-  text-align: center;
-  font-size: 2.3rem;
-  color: #041A28;
-  margin-bottom: 2.5rem;
-}
-
-.faq-item {
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid #ccc;
-  overflow: hidden;
-}
-
-.faq-question {
-  width: 100%;
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #4A6349;
-  cursor: pointer;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: all 0.3s ease;
-}
-
-.faq-icon {
-  font-size: 1.6rem;
-  color: #DBB53A;
-  transition: transform 0.3s ease;
-}
-
-.faq-question.active .faq-icon {
-  transform: rotate(45deg);
-}
-
-.faq-answer {
-  max-height: 0;
-  opacity: 0;
-  transition: all 0.4s ease;
-  padding: 0 0;
-}
-
-.faq-answer.show {
-  max-height: 300px;
-  opacity: 1;
-  padding: 0.5rem 0 1rem 0;
-}
-
-.faq-answer p {
-  font-size: 1rem;
-  color: #333;
-  margin: 0;
-}
 
 /** dot scetion **/
 .timeline-constellation {
@@ -358,3 +207,241 @@
     display: none;
   }
 }
+
+/** faq and form **/
+/* === FORM + FAQ WRAPPER === */
+.form-faq-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  background-color: #041A28;
+  color: white;
+  padding: 2rem 3rem;
+  justify-content: center;
+  font-family: 'Rethink Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+/* === LEFT COLUMN: FORM === */
+.form-container {
+  flex: 1 1 500px;
+  max-width: 600px;
+}
+
+.form-container h2 {
+  font-family: 'Red Rose', serif;
+  font-size: 2.4rem;
+  color: #DBB53A;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+}
+
+.form-container .subtitle {
+  color: #ccc;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* === FORM BOX === */
+.form-container form {
+  background-color: #041A28;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/* === FORM FIELDS === */
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Rethink Sans', sans-serif;
+  background-color: white;
+  margin-bottom: 1rem;
+  color: black;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+  box-shadow: 0 0 0 2px #DBB53A80;
+}
+
+.form-container textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+/* === FILE & BUTTON === */
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+  margin-left: 1.8rem;
+}
+
+.file-upload {
+  background-color: #DBB53A;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Rethink Sans';
+  width: 45%;
+  max-width: 220px;
+}
+
+.file-upload:hover {
+  background-color: #b9972f;
+}
+
+.file-upload input {
+  display: none;
+}
+
+.form-container button {
+  background-color: #DBB53A;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-family: 'Red Rose';
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 45%;
+  max-width: 220px;
+}
+
+.form-container button:hover {
+  background-color: #b9972f;
+}
+
+/* === RIGHT COLUMN: FAQ === */
+.faq-container {
+  flex: 1 1 350px;
+  margin-top: 100px;
+  max-width: 500px;
+  max-height: 550px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 2rem;
+  color: #041A28;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.faq-container h3 {
+  font-family: 'Red Rose', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  color: #041A28;
+}
+
+/* === FAQ ACCORDION === */
+.faq details {
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.6rem;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.05rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #041A28;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "+";
+  font-weight: bold;
+  color: #DBB53A;
+  font-size: 1.4rem;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.faq[open] summary::after {
+  content: "–";
+}
+
+.faq p {
+  margin: 0.6rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 768px) {
+  .form-faq-section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+  }
+
+  .form-container form {
+    padding: 1.5rem 1rem;
+  }
+
+  .faq-container {
+    padding: 1.8rem 1.2rem;
+  }
+
+  .faq-container h3 {
+    text-align: center;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .file-upload,
+  .form-container button {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/** images **/
+.full-width-image {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  height: 340px;
+}
+
