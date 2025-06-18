@@ -48,8 +48,7 @@ body {
         }
 
 
-        a::before,
-        a::after {
+        a::before {
           content: "";
           position: absolute;
           left: 0;
