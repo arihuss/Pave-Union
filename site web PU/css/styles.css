@@ -21,17 +21,17 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1rem 2rem;
+      padding: 0.5rem 2rem;
 
       img {
-        width: 8rem;
+        width: 5rem;
       }
 
       ul {
         display: flex;
         gap: 5rem;
         list-style: none;
-        padding-top: 2rem;
+        padding-top: 0rem;
         padding-right: 3rem;
 
 
