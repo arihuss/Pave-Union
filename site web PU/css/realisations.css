@@ -24,6 +24,9 @@
 
     h3 {
         width: 40%;
+        background-color: #DBB53A;
+        padding: 1.5rem 0.8rem;
+        color: white;
     }
 
     p {
