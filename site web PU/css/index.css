@@ -25,6 +25,16 @@
 
 }
 
+.hero h1, .hero h2 {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 .container {
   h2 {
     margin: 15px 0;
@@ -408,3 +418,5 @@
   margin: 2rem 5rem 5rem 5rem;
   text-align: center;
 }
+
+
