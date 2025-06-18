@@ -17,7 +17,7 @@
 
   h2 {
     position: absolute;
-    font-size: 5.30vw !important;
+    font-size: 5.3rem !important;
     top: 55%;
     margin: 3rem;
     color: white !important;
@@ -110,7 +110,7 @@
 }
 
 .soumission-header h2 {
-  font-size: 3vw;
+  font-size: 3rem;
   font-family: 'Red Rose';
   color: white;
   text-transform: uppercase;

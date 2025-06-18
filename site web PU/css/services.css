@@ -160,6 +160,16 @@
   border-radius: 0;
   box-shadow: none;
   border: 3px solid #DBB53A;
+  transition: 0.3s ease-in-out;
+}
+
+.services-right img:hover{
+  transition: 0.6s ease-in-out;
+  -ms-transform: scale(1.02);
+  /* IE 9 */
+  -webkit-transform: scale(1.02);
+  /* Safari 3-8 */
+  transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
@@ -237,8 +247,8 @@
   transition: 0.6s ease-in-out;
 }
 
-.step:hover{
-   transition: 0.6s ease-in-out;
+.step:hover {
+  transition: 0.6s ease-in-out;
   -ms-transform: scale(1.08);
   /* IE 9 */
   -webkit-transform: scale(1.08);
