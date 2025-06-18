@@ -41,12 +41,41 @@ body {
           font-size: 25px;
           font-family: 'Red Rose';
           text-transform: uppercase;
+          transition: all 0.3 ease;
+          position: relative;
+          text-decoration: none;
+          color: inherit;
         }
 
-        a:hover {
-          text-decoration: underline;
-          /*TODO: Make this prettier, probably with an animation*/
+
+        a::before,
+        a::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          background-color: #DBB53A;
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+          transform-origin: left;
         }
+
+        a::before {
+          top: 0;
+        }
+
+        a::after {
+          bottom: 0;
+        }
+
+        a:hover::before,
+        a:hover::after,
+        a.active::before,
+        a.active::after {
+          transform: scaleX(1);
+        }
+
       }
     }
   }
@@ -87,7 +116,7 @@ body {
     header {
       align-items: normal !important;
       flex-direction: column;
-     
+
 
       ul {
         align-items: flex-start;
@@ -99,7 +128,7 @@ body {
         li {
           width: 100%;
           padding: 0.5rem 1rem;
-          margin-left: 0; 
+          margin-left: 0;
         }
       }
 
@@ -196,11 +225,11 @@ body {
       color: #041A28;
     }
 
-    h3{
+    h3 {
       font-size: 2.5vw;
     }
 
-    p{
+    p {
       font-family: "Rethink Sans";
       line-height: 1.5;
     }
@@ -209,11 +238,17 @@ body {
       margin: 2rem 3rem;
     }
 
-    .green-container{
-      margin:0;
+    .green-container {
+      margin: 0;
       padding: 2rem 3rem;
       background-color: #4A6349;
-      p,h1,h2,h3{color: white !important;}
+
+      p,
+      h1,
+      h2,
+      h3 {
+        color: white !important;
+      }
     }
 
   }
@@ -286,11 +321,11 @@ body {
 }
 
 .main-footer .footer-column nav ul {
-  display: flex;            
-  list-style: none;          
+  display: flex;
+  list-style: none;
   padding: 0;
-  margin: 0.5rem 0 0 0;      
-  gap: 1rem;                
+  margin: 0.5rem 0 0 0;
+  gap: 1rem;
 }
 
 .main-footer .footer-column nav ul li {
@@ -298,12 +333,11 @@ body {
 }
 
 .main-footer .footer-column nav ul li img {
-  width: 24px;               
+  width: 24px;
   height: auto;
 }
 
 .main-footer .footer-column nav ul li:nth-child(2) img {
   position: relative;
-  top: 2px; 
+  top: 2px;
 }
-

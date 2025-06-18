@@ -2,6 +2,15 @@ fetch("components/header.html")
   .then(response => response.text())
   .then(html => {
     document.querySelector("#header").innerHTML = html;
+    
+    const links = document.querySelectorAll('#nav-list a');
+    const currentPage = window.location.pathname.split('/').pop();
+
+    links.forEach(link => {
+      if (link.getAttribute('href') === currentPage) {
+        link.classList.add('active');
+      }
+    });
     document.querySelector("#nav-toggle-container").addEventListener("click", function () {
       const navToggler = document.querySelector("#nav-toggler");
       const navList = document.querySelector("#nav-list");
@@ -49,5 +58,3 @@ window.addEventListener("scroll", function () {
     header.classList.remove("scrolled");
   }
 });
-
-
