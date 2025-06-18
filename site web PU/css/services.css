@@ -182,3 +182,83 @@
     max-width: 100%;
   }
 }
+
+/** section processus 3 etapes **/
+.process {
+  background-color: #4A6349;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.process h2 {
+  font-size: 2.5rem;
+  font-family: 'Red Rose';
+  margin-bottom: 2rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.step {
+  background-color: #ffffff10;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.step span {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #DBB53A;
+  margin-bottom: 1rem;
+}
+
+.step h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.step p {
+  font-family: 'Rethink Sans';
+  font-size: 1rem;
+  color: #eaeaea;
+}
+
+/** section action final soumission **/
+.cta-final {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #DBB53A;
+  margin-bottom: 3rem;
+}
+
+.cta-final h2 {
+  font-size: 2rem;
+  color: #041A28;
+  margin-bottom: 2rem;
+  font-family: 'Red Rose';
+}
+
+.cta-final .soumission-btn {
+  background-color: #041A28;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: 'Red Rose';
+  
+}
+
+.cta-final .soumission-btn:hover {
+  background-color: #0c2d45;
+}
