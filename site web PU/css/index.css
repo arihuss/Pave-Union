@@ -17,9 +17,10 @@
 
   h2 {
     position: absolute;
-    font-size: 5.5vw !important;
+    font-size: 5.30vw !important;
     top: 55%;
     margin: 3rem;
+    color: white !important;
   }
 
 }
