@@ -54,6 +54,7 @@
   justify-content: flex-start; 
   padding: 1rem 2rem 2rem 2rem;
   font-family: "Rethink Sans";
+  line-height: 1.6rem;
 }
 
 .service-info h3 {
