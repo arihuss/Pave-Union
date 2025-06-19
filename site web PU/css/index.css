@@ -419,4 +419,156 @@
   text-align: center;
 }
 
+/**MEDIA **/
+
+@media only screen and (max-width: 768px) {
+
+  .hero {
+    max-height: 30rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    top: 25%;
+    margin: 1rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem !important;
+    top: 45%;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  .container .services-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .service-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .soumission-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .soumission-header h2 {
+    font-size: 2rem;
+  }
+
+  .soumission-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .green-container.zone-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .zone-text {
+    max-width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .valeurs-left,
+  .valeurs-right {
+    flex: 100%;
+    padding: 1rem;
+  }
+
+  .valeurs-left h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .valeurs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .counter {
+    font-size: 2rem;
+  }
+
+  #a-propos {
+    margin: 2rem 1rem;
+  }
+
+  .container > h2,
+  #chiffres h2 {
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    padding: 0 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .testimonials {
+    padding: 40px 15px;
+  }
+
+  .carousel {
+    height: auto;
+    min-height: 180px;
+  }
+
+  .testimonial {
+    position: relative;
+    opacity: 1;
+    transform: none;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .testimonials h2 {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .testimonial p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+  }
+
+  .prev,
+  .next {
+    top: 40%;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+}
+
 
