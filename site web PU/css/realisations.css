@@ -72,3 +72,42 @@
         column-count: 2;
     }
 }
+
+
+/**MEDIA**/
+@media screen and (max-width: 768px) {
+
+  .entete {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .entete h3,
+  .entete p {
+    width: 100%;
+  }
+
+  .entete h3 {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  .entete p {
+    font-size: 0.95rem;
+    text-align: justify;
+    padding: 0 1rem;
+  }
+
+  .masonry-container {
+    margin: 2rem 1rem;
+    column-count: 2;
+    column-gap: 0.5rem;
+  }
+
+  .masonry-container img:hover {
+    transform: scale(1.1); 
+  }
+}
+
