@@ -425,6 +425,7 @@
 
    .hero {
     position: relative;
+    max-height: 460px;
   }
 
   .hero h1 {
