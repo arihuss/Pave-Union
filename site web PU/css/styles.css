@@ -342,7 +342,7 @@ body {
   top: 2px;
 }
 
-/** MEDIA-footer**/
+/** MEDIA-footer-header-phone**/
 @media only screen and (max-width: 768px) {
 
   .main-footer {
@@ -409,9 +409,9 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-  .hero h1 {
-    font-size: 2.5rem;
-    margin: 1rem;
-  }
-
+.hero h1 {
+ 
+  font-size: 2.5rem;
+ 
+}
 }
