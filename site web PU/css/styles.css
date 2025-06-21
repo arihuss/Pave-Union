@@ -117,13 +117,13 @@ body {
       align-items: normal !important;
       flex-direction: column;
 
-
       ul {
         align-items: flex-start;
-        padding: 0;
         margin: 0;
         flex-direction: column;
         overflow: hidden;
+        padding: 1rem 6rem 0rem 0rem !important;
+        gap: 1.5rem !important;
 
         li {
           width: 100%;
@@ -202,6 +202,17 @@ body {
     }
   }
 
+  @media (max-width: 500px) {
+ 
+        header ul {
+          display: flex;
+          gap: 0.5rem !important;
+          vertical-align: middle !important;
+
+
+        }
+      }
+    
   main {
     overflow: hidden;
 
@@ -353,14 +364,14 @@ body {
   .main-footer .footer-content {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-align: center;   
+    align-items: center;
+    text-align: center;
     gap: 1rem;
   }
 
   .main-footer .footer-column {
     width: 100%;
-    max-width: 320px; 
+    max-width: 320px;
   }
 
   .main-footer .footer-column h4 {
@@ -375,12 +386,12 @@ body {
     margin: 0.2rem 0;
     font-size: 0.9rem;
     color: white;
-    text-align: center; 
+    text-align: center;
   }
 
   .main-footer .footer-column nav ul {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 0.5rem;
     padding: 0;
     margin: 0.4rem 0 0;
@@ -409,9 +420,9 @@ body {
 
 @media only screen and (max-width: 768px) {
 
-.hero h1 {
- 
-  font-size: 2.5rem;
- 
-}
+  .hero h1 {
+
+    font-size: 2.5rem;
+
+  }
 }
