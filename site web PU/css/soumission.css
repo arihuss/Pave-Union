@@ -280,7 +280,7 @@
   min-height: 130px;
 }
 
-/* === FILE & BUTTON === */
+/* SUBMIT BUTTON */
 .form-buttons {
   display: flex;
   justify-content: center;
@@ -288,28 +288,6 @@
   margin-top: 0.5rem;
   flex-wrap: wrap;
   margin-left: 1.8rem;
-}
-
-.file-upload {
-  background-color: #DBB53A;
-  color: white;
-  padding: 0.8rem 1.2rem;
-  text-align: center;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 1rem;
-  font-family: 'Rethink Sans';
-  width: 45%;
-  max-width: 220px;
-}
-
-.file-upload:hover {
-  background-color: #b9972f;
-}
-
-.file-upload input {
-  display: none;
 }
 
 .form-container button {
@@ -467,7 +445,6 @@
     margin-top: 1rem;
   }
 
-  .file-upload,
   .form-container button {
     width: 90%;
     max-width: 400px;
