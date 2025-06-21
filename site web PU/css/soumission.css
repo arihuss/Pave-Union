@@ -83,8 +83,6 @@
   line-height: 1.5;
 }
 
-
-
 /** carte **/
 .carte-section {
   background-color: #f9f9f9;
@@ -94,6 +92,7 @@
 }
 
 .carte-section h2 {
+  margin-top: 0rem !important;
   font-family: 'Red Rose';
   font-size: 2.2rem;
   color: white;
@@ -108,7 +107,6 @@
   padding-top: 0;
   display: block;    
 }
-
 
 /** dot scetion **/
 .timeline-constellation {
@@ -398,7 +396,6 @@
 }
 
 /* === MOBILE RESPONSIVE === */
- 
 @media (max-width: 768px) {
 
   html, body {
@@ -521,14 +518,12 @@
   }
 }
 
-
 /** images **/
 .full-width-image {
   width: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  line-height: 0;
 }
 
 .full-width-image img {
@@ -603,6 +598,7 @@
   .carte-section h2 {
     font-size: 1.6rem;
     padding: 0.8rem 1rem;
+    margin-top: 0rem!important;
   }
 
   .carte-section iframe {
@@ -623,5 +619,4 @@
   .faq-container h3 {
     font-size: 1.6rem;
   }
-
 }
