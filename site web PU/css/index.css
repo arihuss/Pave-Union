@@ -521,6 +521,11 @@
   .valeurs-left h2 {
     font-size: 2rem;
     text-align: center;
+    
+  }
+
+  .valeurs-left{
+    min-width: 50px !important;
   }
 
   .valeurs-grid {
@@ -546,7 +551,6 @@
     margin-bottom: 0.8rem;
     padding: 0 1rem;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
