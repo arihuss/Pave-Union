@@ -208,7 +208,9 @@ body {
           display: flex;
           gap: 0.5rem !important;
           vertical-align: middle !important;
-
+          li a {
+            font-size: 1rem !important;
+          }
 
         }
       }
