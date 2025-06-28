@@ -195,10 +195,14 @@
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .timeline-line {
     flex-direction: column;
     gap: 3rem;
+    align-content: center!important;
+    .timeline-item {
+      width: 30rem!important;
+    }
   }
 
   .timeline-line::before {
@@ -512,7 +516,7 @@
 }
 
 /**MEDIA**/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
   /* GREEN CONTAINER (SOU MISSION) */
   .green-container {
@@ -584,6 +588,10 @@
   }
 
   /* FORM & FAQ */
+
+  .form-faq-section{
+    gap: 5rem !important;
+  }
   .form-container h2 {
     font-size: 1.8rem;
     text-align: center;
